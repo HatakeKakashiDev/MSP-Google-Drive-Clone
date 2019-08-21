@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Drive - Google Drive</title>
+</head>
+<body>   
+    <div class="container">
+        <div class="navbar">
+            <div class="lefticon">
+                <img src="images/google drive.png" alt="driveicon">
+                <h3>Drive</h3>
+            </div>
+            <div class="searchbar">
+                <img src="images/baseline-search-24px.svg" alt="searchIcon">
+                <input type="text" placeholder="Search Drive">
+                <img src="images/baseline-arrow_drop_down-24px.svg" alt="dropdown">
+            </div>
+            <div class="rightnav">
+                <div>
+                    <img src="images/round-check_circle_outline-24px.svg" alt="checkcircle">
+                    <img src="images/round-help_outline-24px.svg" alt="help">
+                    <img src="images/round-settings-24px.svg" alt="settings">
+                </div>
+                <div class="user">
+                    <img src="images/apps.svg" alt="application">
+                    <img src="images/accountName.png" alt="usericon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="new-button">
+                <button class="new-btn">
+                    <img src="./images/New button.png" alt="new-button"> New
+                </button>
+            </div>
+            <div class="sidemenu">
+                <div class="sidemenu1">
+                    <button><a class="active" href="#home"><img src="./images/baseline-computer-24px.svg" alt="my-drive"> My Drive</a></button>
+                    <button><a href="#shared"><img src="./images/baseline-contacts-24px.svg" alt="shared"> Shared with me</a></button>
+                    <button><a href="#recents"><img src="./images/baseline-restore-24px.svg" alt="recents"> Recent</a></button>
+                    <button><a href="#starred"><img src="./images/baseline-star_border-24px.svg" alt="starred"> Starred</a></button>
+                    <button><a href="#Trash"><img src="./images/baseline-restore_from_trash-24px.svg" alt="trash"> Trash</a></button>
+                </div>
+                <div class="sidemenu2">
+                    <button><a href="#backups"><img src="./images/baseline-backup-24px.svg" alt="backups"> Backups</a></button>            
+                </div>
+            </div>
+            <div class="sidemenustorage">
+                <img src="./images/baseline-storage-24px.svg" alt="trash"><span id="storage">Storage</span>
+                <br><br>
+                <hr>
+                <span id="storage-txt">0 GB of 15 GB used</span>
+                <button class="upgrade-storage">
+                    <br>
+                    <b>UPGRADE STORAGE</b>
+                </button>
+            </div> 
+        </div>
+    
+
+
+      
+        <div class="main">        
+        <div class="mydrive-bar">
+            <button class="My-Drive">My Drive <img src="./images/baseline-arrow_drop_down-24px.svg" alt="my-drive-dropdown"></button>
+            <div class="right-mydrivebar">
+                <img src="./images/outline-widgets-24px.svg" alt="mydrivebar-viewopt">
+                <img src="./images/outline-info-24px.svg" alt="mydrivebar-info">
+            </div>
+        </div>
+
+        <div class="quickaccess">
+            <br>
+            <span id="qa-text">Quick Access</span>
+            <br>
+            <br>
+                <div class="qa-img">
+                    <img src="./images/qa1.jpg" alt="qa-img">
+                    <img src="./images/qa2.jpg" alt="qa-img">
+                    <img src="./images/qa3.jpg" alt="qa-img">
+                    <img src="./images/qa4.jpg" alt="qa-img">
+                    <img src="./images/qa5.jpg" alt="qa-img">
+                </div>
+        </div>
+       <!-- <div class="main-table">
+            <table>
+                <tr>
+                    <th class="table-name">Name<img src="./images/baseline-sort-24px.svg" alt="name"></th>
+                    <th>Owner </th>
+                    <th>Last Modified </th>
+                    <th>Size </th>
+                </tr>
+                <tr>
+                    <td>Study Material</td>
+                    <td>Aditya Deshmukh</td>
+                    <td>August 20,2019 <b>me</b></td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>-->
+
+        <div class="folders-heading">
+            <div class="folder-head">Folders</div>
+            <div class="folder-name">
+                <button class="folder-name-btn">Name</button>
+                <button class="folder-sort-btn"><img src="./images/baseline-sort-24px.svg" alt="name-sort"></button>
+            </div>
+        </div>
+        <div class="folders">
+            <button class="folder-study">
+                <span class="study-img"><img src="./images/baseline-folder-24px.svg" alt=""></span>
+                <span class="study-material">Study Material</span>
+            </button>
+            <button class="folder-Project">
+                <span class="sharedfolder-img"><img src="./images/baseline-folder_shared-24px.svg" alt=""></span>
+                <span class="project">Project</span>
+            </button>
+        </div>
+
+        <div class="files">
+            <span id="files-head">Files</span>
+            <div class="file-icons">
+                <img src="./images/f1.png" alt="f1-img">
+                <img src="./images/f2.jpg" alt="f2-img">
+                <img src="./images/f3.jpg" alt="f3-img">
+            </div>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
